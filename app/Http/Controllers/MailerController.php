@@ -31,12 +31,7 @@ class MailerController extends Controller {
             $mail->IsSMTP(); // telling the class to use SMTP
 
 
-            $mail->Host = 'mail.sportsmatik.com';       // Specify main and backup SMTP servers
-            $mail->SMTPAuth = true;               // Enable SMTP authentication
-            $mail->Username = 'noreply@sportsmatik.com';   // SMTP username
-            $mail->Password = '#S#port732';   // SMTP password
-            $mail->SMTPSecure = 'tls';            // Enable TLS encryption, `ssl` also accepted
-            $mail->Port = 587;                    // TCP port to connect to
+                           // TCP port to connect to
 
 // Sender info
             $mail->setFrom('happyhassen0786@gmail.com', 'SportsMatik');
